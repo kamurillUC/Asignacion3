@@ -12,4 +12,4 @@ Las funciones de cada ejercicio se encuentran en:
 mis_funciones.py
 ``` 
 
-Todos los diagramas se encuentran en el folder Diagrams en el Asigancion1.drawio
+Todos los diagramas se encuentran en el folder Diagrams en el Asignacion1.drawio
