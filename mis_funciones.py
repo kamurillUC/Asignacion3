@@ -41,7 +41,7 @@ def ir_de_compras():
                 respuesta = input('¿Encontré algún producto que quiera comprar?(Si/No)')
                 if respuesta.lower() == 'si':
                     print("Comprar producto")
-                print("Salir de la tienda")                    
+                print("Salir de la tienda") 
             else:
                 break
         print("Salir del centro comercial")    
@@ -68,4 +68,10 @@ def cenar():
     print("Fin")
 
 
-        
+#Funcion para limpiar consola segun OS
+def limpiarConsola():
+    import os
+    if os.name == "posix" or os.name == "mac":
+        os.system("clear")
+    elif os.name == "ce" or os.name == "dos" or os.name == "nt":
+        os.system("cls")
